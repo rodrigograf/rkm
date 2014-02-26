@@ -269,6 +269,10 @@ ul.list.right {
 }
 
 .departments .box p a {
+	font-size:0.99em;
+}
+
+.departments .box p a {
 	color:inherit;
 }
 
