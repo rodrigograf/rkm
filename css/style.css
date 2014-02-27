@@ -348,6 +348,22 @@ ul.list.right {
 	background:url(../images/bg-entertainment-3.jpg) no-repeat center top fixed;
 }
 
+.background .entertainment-4 {
+	background:url(../images/bg-entertainment-4.jpg) no-repeat center top fixed;
+}
+
+.background .entertainment-5 {
+	background:url(../images/bg-entertainment-5.jpg) no-repeat center top fixed;
+}
+
+.background .entertainment-6 {
+	background:url(../images/bg-entertainment-6.jpg) no-repeat center top fixed;
+}
+
+.background .entertainment-7 {
+	background:url(../images/bg-entertainment-7.jpg) no-repeat center top fixed;
+}
+
 .background .fashion-1 {
 	background:url(../images/bg-fashion-1.jpg) no-repeat center top fixed;
 }
@@ -358,6 +374,14 @@ ul.list.right {
 
 .background .fashion-3 {
 	background:url(../images/bg-fashion-3.jpg) no-repeat center top fixed;
+}
+
+.background .fashion-4 {
+	background:url(../images/bg-fashion-4.jpg) no-repeat center top fixed;
+}
+
+.background .fashion-5 {
+	background:url(../images/bg-fashion-5.jpg) no-repeat center top fixed;
 }
 
 .background .beauty-1 {
@@ -372,6 +396,14 @@ ul.list.right {
 	background:url(../images/bg-beauty-3.jpg) no-repeat center top fixed;
 }
 
+.background .beauty-4 {
+	background:url(../images/bg-beauty-4.jpg) no-repeat center top fixed;
+}
+
+.background .beauty-5 {
+	background:url(../images/bg-beauty-5.jpg) no-repeat center fixed;
+}
+
 .background .health-1 {
 	background:url(../images/bg-health-1.jpg) no-repeat center top fixed;
 }
@@ -382,6 +414,14 @@ ul.list.right {
 
 .background .health-3 {
 	background:url(../images/bg-health-3.jpg) no-repeat center top fixed;
+}
+
+.background .health-4 {
+	background:url(../images/bg-health-4.jpg) no-repeat center top fixed;
+}
+
+.background .health-5 {
+	background:url(../images/bg-health-5.jpg) no-repeat center top fixed;
 }
 
 .background .about {
@@ -457,6 +497,26 @@ ul.list.right {
 .contacts.sidebar ul li a:hover {
 	color:#d03476;
 	text-decoration:none;
+}
+
+.contacts.sidebar ul li a.social {
+	display:inline-block;
+	width:24px;
+	height:24px;
+	margin:5px 12px 0 0;
+	border:none;
+}
+
+.contacts.sidebar ul li a.social.twitter {
+	background:url(../images/social-icons.png) no-repeat left top;
+}
+
+.contacts.sidebar ul li a.social.facebook {
+	background:url(../images/social-icons.png) no-repeat right top;
+}
+
+.contacts.sidebar ul li a.social:hover {
+	background-position-y:bottom;
 }
 
 /*Forms*/
