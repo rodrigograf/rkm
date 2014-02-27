@@ -384,6 +384,10 @@ ul.list.right {
 	background:url(../images/bg-health-3.jpg) no-repeat center top fixed;
 }
 
+.background .about {
+	background:url(../images/bg-about.jpg) no-repeat center fixed;
+}
+
 .background .arrow {
 	display:block;
 	width:38px;
