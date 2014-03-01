@@ -345,7 +345,7 @@ ul.list.right {
 }
 
 .background .entertainment-3 {
-	background:url(../images/bg-entertainment-3.jpg) no-repeat center top fixed;
+	background:url(../images/bg-entertainment-3.jpg) no-repeat center bottom fixed;
 }
 
 .background .entertainment-4 {
@@ -353,7 +353,7 @@ ul.list.right {
 }
 
 .background .entertainment-5 {
-	background:url(../images/bg-entertainment-5.jpg) no-repeat center top fixed;
+	background:url(../images/bg-entertainment-5.jpg) no-repeat center fixed;
 }
 
 .background .entertainment-6 {
@@ -426,6 +426,21 @@ ul.list.right {
 
 .background .about {
 	background:url(../images/bg-about.jpg) no-repeat center fixed;
+}
+
+.background .services {
+	background:url(../images/bg-services.jpg) no-repeat center fixed;
+}
+
+.background .contacts {
+	background:url(../images/bg-contacts.jpg) no-repeat center fixed;
+}
+
+.background .photo {	
+	-webkit-background-size:cover !important;
+	-moz-background-size:cover !important;
+	-o-background-size:cover !important;
+	background-size:cover !important;
 }
 
 .background .arrow {
@@ -564,7 +579,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 }
 
 input[type=button], input[type=submit] {
-	display:block;	
+	display:inline-block;	
 	margin:15px 0 0;
 	padding:8px 40px;
 	background:#d03476;
@@ -581,6 +596,34 @@ input[type=button], input[type=submit] {
 input[type=button]:hover, input[type=submit]:hover, input[type=button]:focus, input[type=submit]:focus {	
 	background:#7e3b57;
 	/*background:#201b17*/
+}
+
+input.error, textarea.error {
+	background:rgba(255,153,170,0.75);
+	/*background:rgba(208,52,118,0.75)*/;
+}
+
+.message {
+	display:none;
+	width:auto;
+	height:32px;
+	margin:15px 0 0 10px;
+	padding:0 10px;
+	color:#fff;
+	line-height:32px;
+	position:absolute;		
+}
+
+.message.success {
+	display:inline-block;
+	background:rgba(80,200,50,0.75);
+	color:#fff;
+}
+
+.message.error {
+	display:inline-block;
+	background:rgba(255,64,64,0.75);
+	color:#fff;
 }
 
 /*Photo Credits and Footer*/
@@ -601,6 +644,7 @@ input[type=button]:hover, input[type=submit]:hover, input[type=button]:focus, in
 	font-size:10px;
 	text-align:left;
 	line-height:20px;
+	display:none;
 }
 
 .credits .client {
