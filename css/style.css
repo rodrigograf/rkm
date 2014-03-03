@@ -29,7 +29,7 @@ body {
 }
 
 body.home {
-	background:#151617 url(../images/bg.jpg) no-repeat center top fixed;
+	background:#151617 url(../images/bg.jpg) no-repeat center center fixed;
 }
 
 h1, h2, h3 {
