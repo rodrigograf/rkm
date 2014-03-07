@@ -80,12 +80,22 @@ strong {
 	text-transform:uppercase;
 }
 
-ul.list {
+ul.list, ul.sublist {
 	padding:0 0 0 20px;
 }
 
 ul.list li {
 	list-style:disc;
+}
+
+ul.sublist li {
+	list-style:none;
+}
+
+ul.sublist li:before {
+	content:"-";
+    position:relative;
+    left:-5px;
 }
 
 ul.list.left {
@@ -434,6 +444,10 @@ ul.list.right {
 
 .background .contacts {
 	background:url(../images/bg-contacts.jpg) no-repeat center fixed;
+}
+
+.background .sitemap {
+	background:url(../images/bg-sitemap.jpg) no-repeat center fixed;
 }
 
 .background .photo {	
