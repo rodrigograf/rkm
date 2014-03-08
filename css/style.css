@@ -621,6 +621,11 @@ input.error, textarea.error {
 	/*background:rgba(208,52,118,0.75);*/
 }
 
+input, textarea {
+    -webkit-appearance:none;
+    -webkit-border-radius:0;
+}
+
 .message {
 	display:none;
 	width:auto;
